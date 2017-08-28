@@ -1,0 +1,6 @@
+flask
+flask-login
+flask-openid
+flask-sqlalchemy
+sqlalchemy
+sqlalchemy-migrate

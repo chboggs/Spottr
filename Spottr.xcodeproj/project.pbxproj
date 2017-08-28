@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094F71091F39441100D32831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F71081F39441100D32831 /* AppDelegate.swift */; };
+		094F710B1F39441100D32831 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F710A1F39441100D32831 /* MasterViewController.swift */; };
+		094F710D1F39441100D32831 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F710C1F39441100D32831 /* DetailViewController.swift */; };
+		094F71101F39441100D32831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094F710E1F39441100D32831 /* Main.storyboard */; };
+		094F71121F39441100D32831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094F71111F39441100D32831 /* Assets.xcassets */; };
+		094F71151F39441100D32831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094F71131F39441100D32831 /* LaunchScreen.storyboard */; };
+		094F71201F39441100D32831 /* SpottrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F711F1F39441100D32831 /* SpottrTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		094F711C1F39441100D32831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 094F70FD1F39441100D32831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 094F71041F39441100D32831;
+			remoteInfo = Spottr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		094F71051F39441100D32831 /* Spottr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spottr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		094F71081F39441100D32831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		094F710A1F39441100D32831 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		094F710C1F39441100D32831 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		094F710F1F39441100D32831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		094F71111F39441100D32831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		094F71141F39441100D32831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		094F71161F39441100D32831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094F711B1F39441100D32831 /* SpottrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpottrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		094F711F1F39441100D32831 /* SpottrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpottrTests.swift; sourceTree = "<group>"; };
+		094F71211F39441100D32831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		094F71021F39441100D32831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094F71181F39441100D32831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094F70FC1F39441100D32831 = {
+			isa = PBXGroup;
+			children = (
+				094F71071F39441100D32831 /* Spottr */,
+				094F711E1F39441100D32831 /* SpottrTests */,
+				094F71061F39441100D32831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		094F71061F39441100D32831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				094F71051F39441100D32831 /* Spottr.app */,
+				094F711B1F39441100D32831 /* SpottrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		094F71071F39441100D32831 /* Spottr */ = {
+			isa = PBXGroup;
+			children = (
+				094F71081F39441100D32831 /* AppDelegate.swift */,
+				094F710A1F39441100D32831 /* MasterViewController.swift */,
+				094F710C1F39441100D32831 /* DetailViewController.swift */,
+				094F710E1F39441100D32831 /* Main.storyboard */,
+				094F71111F39441100D32831 /* Assets.xcassets */,
+				094F71131F39441100D32831 /* LaunchScreen.storyboard */,
+				094F71161F39441100D32831 /* Info.plist */,
+			);
+			path = Spottr;
+			sourceTree = "<group>";
+		};
+		094F711E1F39441100D32831 /* SpottrTests */ = {
+			isa = PBXGroup;
+			children = (
+				094F711F1F39441100D32831 /* SpottrTests.swift */,
+				094F71211F39441100D32831 /* Info.plist */,
+			);
+			path = SpottrTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		094F71041F39441100D32831 /* Spottr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094F71241F39441100D32831 /* Build configuration list for PBXNativeTarget "Spottr" */;
+			buildPhases = (
+				094F71011F39441100D32831 /* Sources */,
+				094F71021F39441100D32831 /* Frameworks */,
+				094F71031F39441100D32831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spottr;
+			productName = Spottr;
+			productReference = 094F71051F39441100D32831 /* Spottr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		094F711A1F39441100D32831 /* SpottrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094F71271F39441100D32831 /* Build configuration list for PBXNativeTarget "SpottrTests" */;
+			buildPhases = (
+				094F71171F39441100D32831 /* Sources */,
+				094F71181F39441100D32831 /* Frameworks */,
+				094F71191F39441100D32831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				094F711D1F39441100D32831 /* PBXTargetDependency */,
+			);
+			name = SpottrTests;
+			productName = SpottrTests;
+			productReference = 094F711B1F39441100D32831 /* SpottrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		094F70FD1F39441100D32831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Christopher Boggs";
+				TargetAttributes = {
+					094F71041F39441100D32831 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NQMPDVAAXV;
+					};
+					094F711A1F39441100D32831 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NQMPDVAAXV;
+						TestTargetID = 094F71041F39441100D32831;
+					};
+				};
+			};
+			buildConfigurationList = 094F71001F39441100D32831 /* Build configuration list for PBXProject "Spottr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 094F70FC1F39441100D32831;
+			productRefGroup = 094F71061F39441100D32831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094F71041F39441100D32831 /* Spottr */,
+				094F711A1F39441100D32831 /* SpottrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		094F71031F39441100D32831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094F71151F39441100D32831 /* LaunchScreen.storyboard in Resources */,
+				094F71121F39441100D32831 /* Assets.xcassets in Resources */,
+				094F71101F39441100D32831 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094F71191F39441100D32831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		094F71011F39441100D32831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094F710D1F39441100D32831 /* DetailViewController.swift in Sources */,
+				094F710B1F39441100D32831 /* MasterViewController.swift in Sources */,
+				094F71091F39441100D32831 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		094F71171F39441100D32831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094F71201F39441100D32831 /* SpottrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		094F711D1F39441100D32831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 094F71041F39441100D32831 /* Spottr */;
+			targetProxy = 094F711C1F39441100D32831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		094F710E1F39441100D32831 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094F710F1F39441100D32831 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		094F71131F39441100D32831 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				094F71141F39441100D32831 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		094F71221F39441100D32831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		094F71231F39441100D32831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		094F71251F39441100D32831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spottr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chboggs.Spottr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		094F71261F39441100D32831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spottr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chboggs.Spottr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		094F71281F39441100D32831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpottrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chboggs.SpottrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spottr.app/Spottr";
+			};
+			name = Debug;
+		};
+		094F71291F39441100D32831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpottrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chboggs.SpottrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spottr.app/Spottr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		094F71001F39441100D32831 /* Build configuration list for PBXProject "Spottr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094F71221F39441100D32831 /* Debug */,
+				094F71231F39441100D32831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		094F71241F39441100D32831 /* Build configuration list for PBXNativeTarget "Spottr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094F71251F39441100D32831 /* Debug */,
+				094F71261F39441100D32831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		094F71271F39441100D32831 /* Build configuration list for PBXNativeTarget "SpottrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094F71281F39441100D32831 /* Debug */,
+				094F71291F39441100D32831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 094F70FD1F39441100D32831 /* Project object */;
+}
